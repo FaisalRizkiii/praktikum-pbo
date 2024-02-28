@@ -27,7 +27,7 @@ public class MGaris {
         Titik titikAkhirRefleksiY = G1RefleksiY.getTitikAkhir();
 
         System.out.println("Titik Awal: (" + titikAwalRefleksiY.getAbsis() + "," +  titikAwalRefleksiY.getOrdinat() + ")");
-        System.out.println("Titik Awal: (" + titikAkhirRefleksiY.getAbsis() + "," +  titikAkhirRefleksiY.getOrdinat() + ")");
+        System.out.println("Titik Akhir: (" + titikAkhirRefleksiY.getAbsis() + "," +  titikAkhirRefleksiY.getOrdinat() + ")");
 
         System.out.println("Garis G1 Tegak lurus dengan garis G1RefleksiY = " + G1.isTegakLurus(G1RefleksiY));
 
